@@ -1,7 +1,7 @@
 import React from 'react';
 import { WebView } from 'react-native-webview';
 
-const IndexPage = () => {
+const AccountPage = () => {
   const injectedJavaScript = `
     const style = document.createElement('style');
     style.innerHTML = 'header { display: none !important; }';
@@ -10,10 +10,10 @@ const IndexPage = () => {
 
   return (
     <WebView 
-      source={{ uri: 'https://kurosearch.com/' }} 
+      source={{ uri: 'https://kurosearch.com/account' }} 
       injectedJavaScript={injectedJavaScript}
     />
   );
 };
 
-export default IndexPage;
+export default AccountPage;
