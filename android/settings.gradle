@@ -21,7 +21,7 @@ extensions.configure(com.facebook.react.ReactSettingsExtension) { ex ->
   }
 }
 
-rootProject.name = '34feed'
+rootProject.name = 'feed34'
 
 dependencyResolutionManagement {
   versionCatalogs {

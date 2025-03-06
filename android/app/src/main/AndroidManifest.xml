@@ -27,6 +27,7 @@
         <data android:scheme="myapp"/>
         <data android:scheme="com.poellebob.x34feed"/>
         <data android:scheme="exp+34feed"/>
+        <data android:scheme="exp+feed34"/>
       </intent-filter>
     </activity>
   </application>
